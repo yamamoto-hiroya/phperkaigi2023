@@ -1,0 +1,6 @@
+services:
+  app:
+    container_name: phperkaigi2023
+    image: php:8.2-fpm
+    volumes:
+      - ./:/var/www/html/
